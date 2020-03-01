@@ -1,2 +1,5 @@
+02/29/2020: Put up the background stage. Added in player. Got movement and shooting done. Put in boundaries so the player
+doesn't run off bounds. Got the bullets to despawn when colliding.
+
 02/09/2020-02/09/2020: Designed the beginning main menu/configuration UI and wrote the script for transitioning
 between them and the Game scene.
