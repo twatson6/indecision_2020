@@ -1,12 +1,25 @@
 ﻿<Properties StartupConfiguration="{4CFFDA30-0E63-039E-0DCA-DAC117CE2649}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ZombieMovement.cs">
     <Files>
-      <File FileName="Assets/ZombieMovement.cs" Line="35" Column="31" />
+      <File FileName="Assets/ZombieMovement.cs" Line="40" Column="1" />
+      <File FileName="Assets/Bullet.cs" Line="13" Column="21" />
+      <File FileName="Assets/ZombieKill.cs" Line="7" Column="22" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="src" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ZombieMovement.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fd3c6f56-96fe-4add-9894-97073175e6a1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1c55c782-90ce-4277-8124-993304a5d3d7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
