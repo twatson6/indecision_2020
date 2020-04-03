@@ -57,8 +57,6 @@
      <Compile Include="Assets\cameraFollow.cs" />
      <Compile Include="Assets\Damage.cs" />
      <Compile Include="Assets\EndMenu.cs" />
-     <Compile Include="Assets\EnemyDamage.cs" />
-     <Compile Include="Assets\EnemyHit.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\PlayerMove.cs" />
