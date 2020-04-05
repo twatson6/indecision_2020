@@ -1,4 +1,16 @@
-Base path: /Applications/Unity/Hub/Editor/2018.4.17f1/Unity.app/Contents
+Base path: /Applications/Unity/Hub/Editor/2018.4.16f1/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1160 outsize=388 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
