@@ -10,9 +10,6 @@ public class ZombieMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
-    float minDistance = 200f;
-    float maxDistance = 500f;
-
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
@@ -30,14 +27,7 @@ public class ZombieMovement : MonoBehaviour
         movement = direction;
     }
 
-    private void FixedUpdate()
-    {
-        if ((Player.position - transform.position).magnitude <= minDistance)
-        {
-            moveCharacter(movement);
-        }
-       
-    }
+    private void FixedUpdate() => moveCharacter(movement);
 
     void moveCharacter(Vector2 direction)
     {

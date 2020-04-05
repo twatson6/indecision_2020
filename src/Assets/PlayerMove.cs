@@ -9,7 +9,7 @@ public class PlayerMove : MonoBehaviour
 	public float playerSpeed = 3f;
 	private float lookAngle;
 	
-	public Camera camera;
+	public new Camera camera;
 	public Rigidbody2D rigidBody;
 	
 	private Vector2 mouse;
