@@ -1,3 +1,6 @@
+04/04/2020: Added in 2 different power-ups, one for attack speed, one for movement speed. Wrote the scripts for handling the collisions
+and modifying the correct variables.
+
 03/20/2020: Added a damage script to the player to handle the default zombie collisions, added an end screen that
 allows player to exit game or go to main menu.
 

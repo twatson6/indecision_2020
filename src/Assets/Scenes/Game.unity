@@ -775,6 +775,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 397982078, guid: 5729edb60f335b74794a38ae270300b4, type: 3}
+      propertyPath: endMenu
+      value: 
+      objectReference: {fileID: 2097444045}
+    - target: {fileID: 397982078, guid: 5729edb60f335b74794a38ae270300b4, type: 3}
+      propertyPath: healthComponent
+      value: 
+      objectReference: {fileID: 1581869348}
     - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -813,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
@@ -835,11 +843,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4198891935586418105, guid: 5729edb60f335b74794a38ae270300b4,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5287737858188015840, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
       propertyPath: camera
@@ -853,7 +856,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 397982076}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &397982078
+--- !u!114 &397982084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -862,14 +865,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 397982077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 302036205b539a1418865356a6926cf7, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e79cc94297148e42a29c0b18547dc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  canDamage: 1
-  grace: 0.75
-  endMenu: {fileID: 2097444045}
-  healthComponent: {fileID: 1581869348}
 --- !u!1 &414305078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &633219984
 MonoBehaviour:
@@ -2130,7 +2128,7 @@ Transform:
   - {fileID: 475337323}
   - {fileID: 1809358883}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1368353472
 Animator:
@@ -2688,7 +2686,7 @@ Transform:
   - {fileID: 1503481985}
   - {fileID: 645533973}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809358882
 GameObject:

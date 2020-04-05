@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     // Start is called before the first frame update
-	public float playerSpeed = 3f;
+	static public float playerSpeed = 3f;
 	private float lookAngle;
 	
 	public Camera camera;
