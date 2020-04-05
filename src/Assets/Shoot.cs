@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour
 	
 	public GameObject bulletPrefab;
 	
-	public float fireRate = 1f;
+	static public float fireRate = 1f;
 	
 	public float canFire = 1f;
 	public float bulletForce = 15f;
