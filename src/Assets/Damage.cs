@@ -35,7 +35,7 @@ public class Damage : MonoBehaviour
 	
 	void die()
 	{
-		Time.timeScale = 0f;
 		endMenu.SetActive(true);
+		Destroy(gameObject);
 	}
 }

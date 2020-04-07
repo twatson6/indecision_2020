@@ -14,11 +14,14 @@ public class cameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Player.position != goal)
+        if(Player != null)
 		{
-			goal = Player.position;
-			goal.z = transform.position.z;
-			transform.position = Vector3.SmoothDamp(transform.position, goal, ref velocity, smoother);
+			if(Player.position != goal && Player != null)
+			{
+				goal = Player.position;
+				goal.z = transform.position.z;
+				transform.position = Vector3.SmoothDamp(transform.position, goal, ref velocity, smoother);
+			}
 		}
 		
     }
