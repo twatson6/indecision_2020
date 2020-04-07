@@ -18,13 +18,16 @@ public class ZombieMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = Player.position - transform.position;
-        setMoveSpeed(direction);
-       
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
-        direction.Normalize();
-        movement = direction;
+		if(Player != null)
+		{
+			Vector3 direction = Player.position - transform.position;
+			setMoveSpeed(direction);
+		   
+			float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+			rb.rotation = angle;
+			direction.Normalize();
+			movement = direction;
+		}
     }
 
     private void FixedUpdate()

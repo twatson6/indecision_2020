@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class EndMenu : MonoBehaviour
 {
 	public GameObject endMenu;
-
-    // Update is called once per frame
+	
+	
 
 	public void menu ()
 	{
+		endMenu.SetActive(false);
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("Menu");
 	}
