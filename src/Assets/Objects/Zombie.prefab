@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1522211239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1522211240}
+  m_Layer: 0
+  m_Name: powerUpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1522211240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522211239}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0056401193, w: 0.99998415}
+  m_LocalPosition: {x: -0.42, y: -0.11, z: 0}
+  m_LocalScale: {x: 0.622, y: 0.622, z: 0.622}
+  m_Children: []
+  m_Father: {fileID: 3001606558880038077}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.493004}
 --- !u!1 &3001606558880038078
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,7 +61,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.09, y: 23.03, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children: []
+  m_Children:
+  - {fileID: 1522211240}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -197,11 +228,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e3fceb5ed91425ca9bf66051b0df4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerupPoint: {fileID: 1522211240}
+  msPrefab: {fileID: 3293149407904305366, guid: 697106fa2c7a79c4ab61a371a2f5572b,
+    type: 3}
+  asPrefab: {fileID: 3697458672406326777, guid: 211b763d93b7b684eb42871b7a122923,
+    type: 3}
   zombieHealth: 3
-  canDamage: 1
-  grace: 0.75
   Zombie: {fileID: 3001606558880038078}
-  zombieHealthComponent: {fileID: 0}
 --- !u!114 &114284601187676572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,5 +248,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  moveSpeed: 0
-  defaultSpeed: 50
+  moveSpeed: 1
+  defaultSpeed: 1

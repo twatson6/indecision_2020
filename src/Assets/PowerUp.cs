@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-	void OnCollisionEnter2D(Collision2D collision){
+	void OnTriggerEnter2D(Collider2D collision){
 		
 		if(collision.gameObject.tag=="aspowerup")
 		{
@@ -15,7 +15,7 @@ public class PowerUp : MonoBehaviour
 		
 		if(collision.gameObject.tag=="mspowerup")
 		{
-			PlayerMove.playerSpeed = PlayerMove.playerSpeed + 1f;
+			PlayerMove.playerSpeed = PlayerMove.playerSpeed + .35f;
 		}
 	}
 }
