@@ -1,0 +1,5 @@
+04/10/2020: Zombie now takes damage and dies when colliding with the bullet.
+
+03/14/2020: Fixed an issue we were having with the zombie's speed slowing down as it came closer to the player.
+
+03/09/2020: Made an Enemy Object which contains the first Zombie object. Zombie is able to follow player and face the direction of the player.
