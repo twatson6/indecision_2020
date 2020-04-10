@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3001606558880038077}
   - component: {fileID: 3001606558880038050}
   - component: {fileID: 3001606558880038051}
-  - component: {fileID: 3001606558880038076}
   - component: {fileID: 3001606558880038049}
+  - component: {fileID: 114475395039272442}
+  - component: {fileID: 114284601187676572}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: enemy
@@ -103,21 +104,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3001606558880038076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3001606558880038078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a34074c18744cb4a0f49b558756814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  moveSpeed: 30
-  defaultSpeed: 40
 --- !u!60 &3001606558880038049
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -199,3 +185,35 @@ PolygonCollider2D:
       - {x: 0.114999995, y: -0.91999996}
       - {x: 0.275, y: -0.89}
       - {x: 0.45499998, y: -0.84}
+--- !u!114 &114475395039272442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3001606558880038078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e3fceb5ed91425ca9bf66051b0df4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombieHealth: 3
+  canDamage: 1
+  grace: 0.75
+  Zombie: {fileID: 3001606558880038078}
+  zombieHealthComponent: {fileID: 0}
+--- !u!114 &114284601187676572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3001606558880038078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a34074c18744cb4a0f49b558756814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  moveSpeed: 0
+  defaultSpeed: 50

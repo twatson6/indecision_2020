@@ -118,7 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf6850a1336f5443b011be03ff1479f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 3
   camera: {fileID: 0}
   rigidBody: {fileID: 2042365266603075941}
   movement: {x: 0, y: 0}
@@ -137,8 +136,7 @@ MonoBehaviour:
   firePoint: {fileID: 4198891935323840640}
   bulletPrefab: {fileID: 2545684619547842606, guid: 530cb222cd7a4f6499263acc85296b7c,
     type: 3}
-  fireRate: 1
-  canFire: 1
+  canFire: 0.05
   bulletForce: 15
 --- !u!60 &1041980385
 PolygonCollider2D:
