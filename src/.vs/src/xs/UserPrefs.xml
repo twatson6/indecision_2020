@@ -1,14 +1,22 @@
 ﻿<Properties StartupConfiguration="{4CFFDA30-0E63-039E-0DCA-DAC117CE2649}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ZombieMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ZombieDamage.cs">
     <Files>
-      <File FileName="Assets/ZombieMovement.cs" Line="35" Column="31" />
+      <File FileName="Assets/ZombieDamage.cs" Line="38" Column="1" />
+      <File FileName="Assets/Damage.cs" />
+      <File FileName="Assets/ZombieMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/powerUpCollide.cs" />
+      <File FileName="Assets/PowerUp.cs" />
+      <File FileName="Assets/Shoot.cs" />
+      <File FileName="Assets/spawnZombie.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fd3c6f56-96fe-4add-9894-97073175e6a1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07e7548b-8710-4851-908f-765687478947" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/david/indecision_2020/src/Assets/ZombieDamage.cs" relfile="Assets/ZombieDamage.cs" line="19" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -10,12 +10,12 @@ public class PowerUp : MonoBehaviour
 		
 		if(collision.gameObject.tag=="aspowerup")
 		{
-			Shoot.fireRate = Shoot.fireRate - Shoot.fireRate/10;
+			Shoot.fireRate = Shoot.fireRate - Shoot.fireRate/50;
 		}
 		
 		if(collision.gameObject.tag=="mspowerup")
 		{
-			PlayerMove.playerSpeed = PlayerMove.playerSpeed + .1f;
+			PlayerMove.playerSpeed = PlayerMove.playerSpeed + 1f;
 		}
 	}
 }

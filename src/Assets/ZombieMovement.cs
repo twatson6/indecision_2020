@@ -9,9 +9,10 @@ public class ZombieMovement : MonoBehaviour
     public float defaultSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-    
     void Start()
     {
+        Player = GameObject.FindWithTag("Player").transform;
+
         rb = this.GetComponent<Rigidbody2D>();
     }
 
