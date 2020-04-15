@@ -8,15 +8,21 @@ public class cameraFollow : MonoBehaviour
 {
 	public Transform Player;
 	public float smoother = 0.8f;
-	
+	public Vector3 goal;
 	private Vector3 velocity = Vector3.zero;
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 goal = Player.position;
-		goal.z = transform.position.z;
+        if(Player != null)
+		{
+			if(Player.position != goal && Player != null)
+			{
+				goal = Player.position;
+				goal.z = transform.position.z;
+				transform.position = Vector3.SmoothDamp(transform.position, goal, ref velocity, smoother);
+			}
+		}
 		
-		transform.position = Vector3.SmoothDamp(transform.position, goal, ref velocity, smoother);
     }
 }
