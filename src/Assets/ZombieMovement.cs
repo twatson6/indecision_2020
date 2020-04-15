@@ -31,10 +31,7 @@ public class ZombieMovement : MonoBehaviour
 		}
     }
 
-    private void FixedUpdate()
-    {
-        moveCharacter(movement);
-    }
+    private void FixedUpdate() => moveCharacter(movement);
 
     void moveCharacter(Vector2 direction)
     {

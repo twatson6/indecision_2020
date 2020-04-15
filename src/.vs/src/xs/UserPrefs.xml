@@ -9,6 +9,17 @@
       <File FileName="Assets/Shoot.cs" />
       <File FileName="Assets/spawnZombie.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="src" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ZombieMovement.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
