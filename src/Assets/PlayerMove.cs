@@ -6,10 +6,10 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     // Start is called before the first frame update
-	public float playerSpeed = 3f;
+	static public float playerSpeed = 2f;
 	private float lookAngle;
 	
-	public new Camera camera;
+	public Camera lookCamera;
 	public Rigidbody2D rigidBody;
 	
 	private Vector2 mouse;
@@ -20,7 +20,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         
-		mouse = camera.ScreenToWorldPoint(Input.mousePosition);
+		mouse = lookCamera.ScreenToWorldPoint(Input.mousePosition);
 		movement.x = Input.GetAxisRaw("Horizontal");
 		movement.y = Input.GetAxisRaw("Vertical");
 		

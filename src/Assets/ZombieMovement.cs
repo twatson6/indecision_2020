@@ -9,22 +9,26 @@ public class ZombieMovement : MonoBehaviour
     public float defaultSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-
     void Start()
     {
+        Player = GameObject.FindWithTag("Player").transform;
+
         rb = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = Player.position - transform.position;
-        setMoveSpeed(direction);
-       
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
-        direction.Normalize();
-        movement = direction;
+		if(Player != null)
+		{
+			Vector3 direction = Player.position - transform.position;
+			setMoveSpeed(direction);
+		   
+			float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+			rb.rotation = angle;
+			direction.Normalize();
+			movement = direction;
+		}
     }
 
     private void FixedUpdate() => moveCharacter(movement);
