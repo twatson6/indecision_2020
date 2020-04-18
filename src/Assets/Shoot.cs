@@ -26,6 +26,7 @@ public class Shoot : MonoBehaviour
 	
 	void Fire()
 	{
+		FindObjectOfType<AudioManager>().Play("GlockShot");
 		GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 		Rigidbody2D bulletBody = bullet.GetComponent<Rigidbody2D>();
 		bulletBody.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
