@@ -12,7 +12,7 @@
       <File FileName="Assets/PlayerMove.cs" Line="26" Column="47" />
       <File FileName="Assets/AudioManager.cs" Line="31" Column="1" />
       <File FileName="Assets/Sound.cs" />
-      <File FileName="Assets/MainMenu.cs" Line="13" Column="43" />
+      <File FileName="Assets/MainMenu.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
