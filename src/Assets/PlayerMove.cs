@@ -23,15 +23,17 @@ public class PlayerMove : MonoBehaviour
 		mouse = lookCamera.ScreenToWorldPoint(Input.mousePosition);
 		movement.x = Input.GetAxisRaw("Horizontal");
 		movement.y = Input.GetAxisRaw("Vertical");
-		
-    }
+		FindObjectOfType<AudioManager>().Play("Dirt_Jogging");
+	}
 	
 	void FixedUpdate()
 	{
 		rigidBody.MovePosition(rigidBody.position + playerSpeed * movement * Time.fixedDeltaTime);
-		
-		lookHere = mouse - rigidBody.position;
+
+        lookHere = mouse - rigidBody.position;
 		lookAngle = Mathf.Atan2(lookHere.y, lookHere.x) * Mathf.Rad2Deg;
 		rigidBody.rotation = lookAngle;
+
+
 	}
 }

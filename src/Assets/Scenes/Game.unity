@@ -737,7 +737,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &302502966
 GameObject:
@@ -840,6 +840,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.84701
       objectReference: {fileID: 0}
+    - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285815318882351236, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285815318882351236, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285815318882351236, guid: 5729edb60f335b74794a38ae270300b4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6f0b461e452a4c4db834c4c9c87e350,
+        type: 3}
     - target: {fileID: 4198891935586418105, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
       propertyPath: m_Name
@@ -875,6 +906,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e79cc94297148e42a29c0b18547dc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &397982085
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397982077}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3df5db26f88184edab0663454810dc92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &414305078
 GameObject:
   m_ObjectHideFlags: 0
@@ -99869,7 +99919,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -100122,7 +100172,7 @@ PrefabInstance:
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
@@ -100178,8 +100228,29 @@ MonoBehaviour:
   sounds:
   - name: GlockShot
     clip: {fileID: 8300000, guid: 390d93b2e00714e90af7aa53efecc24c, type: 3}
-    Volume: 0.573
-    Pitch: 0.1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dirt_Jogging
+    clip: {fileID: 8300000, guid: 112786e4d83f046d69323653a1f1c6f5, type: 3}
+    volume: 0.41
+    pitch: 1
+    source: {fileID: 0}
+  - name: Forest
+    clip: {fileID: 8300000, guid: 9b443236ba49148cabc592c12bab45be, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Ocean
+    clip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Main_Menu
+    clip: {fileID: 8300000, guid: 6f12468409cfb463dabb7488be49696c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
 --- !u!4 &891077514
 Transform:
   m_ObjectHideFlags: 0
@@ -100484,7 +100555,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1028832567
 TilemapRenderer:
@@ -100613,7 +100684,7 @@ PrefabInstance:
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
