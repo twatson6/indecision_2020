@@ -45,8 +45,8 @@ GameObject:
   - component: {fileID: 114475395039272442}
   - component: {fileID: 114284601187676572}
   m_Layer: 0
-  m_Name: Zombie
-  m_TagString: enemy
+  m_Name: normalZombie
+  m_TagString: normalZombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,6 @@ MonoBehaviour:
     type: 3}
   zombieHealth: 3
   Zombie: {fileID: 3001606558880038078}
-  scoreComponent: {fileID: 0}
 --- !u!114 &114284601187676572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,5 +248,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  moveSpeed: 1
-  defaultSpeed: 1
+  moveSpeed: 1.5
+  defaultSpeed: 1.15
