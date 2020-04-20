@@ -1,4 +1,5 @@
-﻿//made by Terry for the Player Movement 02/29/2020
+﻿//Edited 4/19/2020 by Terry for new player model
+//made by Terry for the Player Movement 02/29/2020
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,7 +33,7 @@ public class PlayerMove : MonoBehaviour
 
         lookHere = mouse - rigidBody.position;
 		lookAngle = Mathf.Atan2(lookHere.y, lookHere.x) * Mathf.Rad2Deg;
-		rigidBody.rotation = lookAngle;
+		rigidBody.rotation = lookAngle - 90; //New player model change here.
 
 
 	}
