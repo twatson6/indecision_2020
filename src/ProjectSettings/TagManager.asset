@@ -8,6 +8,9 @@ TagManager:
   - aspowerup
   - mspowerup
   - Bullet
+  - normalZombie
+  - weakZombie
+  - strongZombie
   layers:
   - Default
   - TransparentFX

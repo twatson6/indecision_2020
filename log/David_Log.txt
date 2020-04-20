@@ -1,3 +1,8 @@
+04/20/2020: Added two more zombie types.
+		- Strong Zombie (black shirt) has more health, moves slower and deals more damage to player
+		- Weak Zombie (blue shirt) has less health, moves faster and deals less damage to player
+		- Normal Zombie (green shirt) sits somewhere in between these two
+
 04/10/2020: Zombie now takes damage and dies when colliding with the bullet.
 
 03/14/2020: Fixed an issue we were having with the zombie's speed slowing down as it came closer to the player.
