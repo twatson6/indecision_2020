@@ -235,6 +235,7 @@ MonoBehaviour:
     type: 3}
   zombieHealth: 3
   Zombie: {fileID: 3001606558880038078}
+  scoreComponent: {fileID: 0}
 --- !u!114 &114284601187676572
 MonoBehaviour:
   m_ObjectHideFlags: 0

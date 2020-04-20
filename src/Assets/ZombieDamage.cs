@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using TMPro;
+
 
 public class ZombieDamage : MonoBehaviour
 {
@@ -12,18 +12,15 @@ public class ZombieDamage : MonoBehaviour
 	public GameObject msPrefab;
 	public GameObject asPrefab;
 	public float zombieHealth = 3;
-	//public float canDamage = 1f;
-    //public float grace = .75f;
-
+	
 	public GameObject Zombie;
-	//public TextMeshProUGUI zombieHealthComponent;
+
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 
-		if (collision.gameObject.tag == "Bullet") //&& Time.time > canDamage)
+		if (collision.gameObject.tag == "Bullet")
 		{
 			zombieHealth = zombieHealth - 1;
-			//canDamage = Time.time + grace;
 		}
 	}
 
@@ -33,13 +30,12 @@ public class ZombieDamage : MonoBehaviour
 		{
 			zombieDie();
 		}
-
-        //zombieHealthComponent.text = "HEALTH: " + zombieHealth.ToString();
 	}
 
 	void zombieDie()
 	{
 		powerUpDrop();
+		scoreKeeper.score++;
 		Destroy(gameObject);
 	}
 	
