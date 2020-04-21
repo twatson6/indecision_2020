@@ -1,41 +1,27 @@
 ﻿<Properties StartupConfiguration="{4CFFDA30-0E63-039E-0DCA-DAC117CE2649}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Day_Night_Cycle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ZombieMovement.cs">
     <Files>
       <File FileName="Assets/ZombieDamage.cs" Line="38" Column="1" />
-      <File FileName="Assets/Damage.cs" />
-      <File FileName="Assets/ZombieMovement.cs" />
+      <File FileName="Assets/Damage.cs" Line="14" Column="28" />
+      <File FileName="Assets/ZombieMovement.cs" Line="48" Column="44" />
       <File FileName="Assets/powerUpCollide.cs" />
       <File FileName="Assets/PowerUp.cs" />
       <File FileName="Assets/Shoot.cs" />
-      <File FileName="Assets/spawnZombie.cs" Line="1" Column="1" />
+      <File FileName="Assets/spawnZombie.cs" />
       <File FileName="Assets/Bullet.cs" />
       <File FileName="Assets/PlayerMove.cs" />
       <File FileName="Assets/AudioManager.cs" />
       <File FileName="Assets/Sound.cs" />
       <File FileName="Assets/MainMenu.cs" />
       <File FileName="Assets/scoreKeeper.cs" />
-      <File FileName="Assets/Scripts/Day_Night_Cycle.cs" Line="17" Column="40" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="src" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Day_Night_Cycle.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="906d344f-38bb-444c-99e4-7fb9a72a7a91" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2309f925-39e1-4ec6-83ed-6383c8fcfb62" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/tony/Documents/CMPS3350/game/indecision_2020/src/Assets/ZombieDamage.cs" relfile="Assets/ZombieDamage.cs" line="19" column="1" />
+      <Breakpoint file="/Users/david/indecision_2020/src/Assets/ZombieDamage.cs" relfile="Assets/ZombieDamage.cs" line="19" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
