@@ -45,7 +45,7 @@ public class ZombieMovement : MonoBehaviour
     {
         if (System.Math.Abs(dir.y) < 2.5 && System.Math.Abs(dir.x) < 2.5)
         {
-            moveSpeed = defaultSpeed * 1.5f;
+            moveSpeed = defaultSpeed * 1.25f;
         }
         else
             moveSpeed = defaultSpeed;
