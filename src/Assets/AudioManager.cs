@@ -6,11 +6,9 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
-	string _OutputMixer = "Master";
     // Start is called before the first frame update
     void Awake()
     {
-		AudioMixer mixer = Resources.Load("MainMixer") as AudioMixer;
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();

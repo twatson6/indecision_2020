@@ -1,3 +1,7 @@
+04/20/2020: Created a script that links the volume slider in options menu to sounds
+
+04/19/2020: Created spawner objects using spawnZombie.cs
+
 04/04/2020: Added in 2 different power-ups, one for attack speed, one for movement speed. Wrote the scripts for handling the collisions
 and modifying the correct variables.
 

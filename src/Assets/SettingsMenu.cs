@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Written by Terry 04/20/20 to control the volume slider in settings
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
