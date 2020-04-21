@@ -726,7 +726,8 @@ AudioSource:
   m_GameObject: {fileID: 395488806}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9b443236ba49148cabc592c12bab45be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -103077,7 +103078,8 @@ AudioSource:
   m_GameObject: {fileID: 752062635}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -103210,7 +103212,7 @@ MonoBehaviour:
   sounds:
   - name: GlockShot
     clip: {fileID: 8300000, guid: 390d93b2e00714e90af7aa53efecc24c, type: 3}
-    volume: 1
+    volume: 0.36
     pitch: 1
     source: {fileID: 0}
   - name: Dirt_Jogging
@@ -110416,7 +110418,8 @@ AudioSource:
   m_GameObject: {fileID: 1256337777}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -114990,7 +114993,8 @@ AudioSource:
   m_GameObject: {fileID: 1800278848}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9b443236ba49148cabc592c12bab45be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -115117,7 +115121,8 @@ AudioSource:
   m_GameObject: {fileID: 1800840481}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -115244,7 +115249,8 @@ AudioSource:
   m_GameObject: {fileID: 1924448178}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 2eb21ae8225894da0b63486db161bd5b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -132697,7 +132703,8 @@ AudioSource:
   m_GameObject: {fileID: 2060871383}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -132898,7 +132905,8 @@ AudioSource:
   m_GameObject: {fileID: 2108679372}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a0a7e85bec9f34f448a303ebc03cd3fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -133025,7 +133033,8 @@ AudioSource:
   m_GameObject: {fileID: 2136853415}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9b443236ba49148cabc592c12bab45be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
