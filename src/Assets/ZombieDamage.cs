@@ -11,6 +11,7 @@ public class ZombieDamage : MonoBehaviour
 	public Transform powerupPoint;
 	public GameObject msPrefab;
 	public GameObject asPrefab;
+	public GameObject hpPrefab;
 	public float zombieHealth = 3;
 	
 	public GameObject Zombie;
@@ -45,14 +46,18 @@ public class ZombieDamage : MonoBehaviour
 		int newRand1 = Random.Range(1,5);
 		if(newRand1 == 1)
 		{
-			int newRand2 = Random.Range(1,3);
-			if(newRand2 == 1)
+			int newRand2 = Random.Range(1,6);
+			if(newRand2 == 1 || newRand2 == 2)
 			{
 				GameObject upgrade1 = Instantiate(msPrefab, powerupPoint.position, powerupPoint.rotation);
 			}
-			else if(newRand2 == 2)
+			else if(newRand2 == 3 || newRand2 == 4)
 			{
 				GameObject upgrade2 = Instantiate(asPrefab, powerupPoint.position, powerupPoint.rotation);				
+			}
+			else if(newRand2 == 5)
+			{
+				GameObject upgrade3 = Instantiate(asPrefab, powerupPoint.position, powerupPoint.rotation);
 			}
 		}		
 	}

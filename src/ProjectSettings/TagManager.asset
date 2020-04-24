@@ -11,6 +11,7 @@ TagManager:
   - normalZombie
   - weakZombie
   - strongZombie
+  - hppowerup
   layers:
   - Default
   - TransparentFX
