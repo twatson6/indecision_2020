@@ -25,7 +25,15 @@ public class ZombieMovement : MonoBehaviour
 			setMoveSpeed(direction);
 		   
 			float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-			rb.rotation = angle;
+			if(gameObject.name == "Fat_Zombie")
+			{
+				rb.rotation = angle - 90;
+			}
+			else
+			{
+				rb.rotation = angle;
+			}
+			
 			direction.Normalize();
 			movement = direction;
 		}
