@@ -8,7 +8,7 @@ using TMPro;
 
 public class Damage : MonoBehaviour
 {
-    public float health = 10;
+    static public float health = 10;
 	
 	public float canDamage = 1f;
 	public float grace = .75f;

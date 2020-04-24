@@ -360,7 +360,7 @@ RectTransform:
   m_Children:
   - {fileID: 414305079}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -698,7 +698,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395488806
 GameObject:
@@ -3524,7 +3524,7 @@ PrefabInstance:
     - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 20703621401231532, guid: 5729edb60f335b74794a38ae270300b4,
         type: 3}
@@ -3911,7 +3911,7 @@ PrefabInstance:
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3001606558880038077, guid: 94e9d766f0af65642b81abafb8333962,
         type: 3}
@@ -102765,7 +102765,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &633219984
 MonoBehaviour:
@@ -103245,7 +103245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936166398
 GameObject:
@@ -114534,7 +114534,7 @@ Transform:
   - {fileID: 1800278850}
   - {fileID: 2136853417}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1531010652
 GameObject:
@@ -133103,6 +133103,7 @@ MonoBehaviour:
     type: 3}
   asPrefab: {fileID: 3697458672406326777, guid: 211b763d93b7b684eb42871b7a122923,
     type: 3}
+  hpPrefab: {fileID: 0}
   zombieHealth: 2
   Zombie: {fileID: 4271439872247457745}
 --- !u!114 &1402571738145860339
@@ -133310,7 +133311,7 @@ Transform:
   m_Children:
   - {fileID: 1360345118556684999}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4331513840875025502
 PrefabInstance:
@@ -133357,7 +133358,7 @@ PrefabInstance:
     - target: {fileID: 3853241225046255913, guid: 328838fb9a47a413da95889dfd6bcf9e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3853241225046255913, guid: 328838fb9a47a413da95889dfd6bcf9e,
         type: 3}
