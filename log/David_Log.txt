@@ -1,3 +1,5 @@
+04/24/2020: Added a grid map and a pathfinding system for zombies to follow player and go around obstacles.
+
 04/20/2020: Added two more zombie types.
 		- Strong Zombie (black shirt) has more health, moves slower and deals more damage to player
 		- Weak Zombie (blue shirt) has less health, moves faster and deals less damage to player
