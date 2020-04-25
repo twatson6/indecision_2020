@@ -43,13 +43,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58d105e1dd60f449db40b61f64f25c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weakZomb: {fileID: 4271439871797210663, guid: 094a1b25da26e41e1808f1a53a4b2bbf,
+  weakZomb: {fileID: 5929665241832438693, guid: efff5ae5a9f9243f9a333fa21ba6ce76,
     type: 3}
-  normalZomb: {fileID: 3001606558880038078, guid: 94e9d766f0af65642b81abafb8333962,
+  normalZomb: {fileID: 7316947329833119717, guid: dbc7fb2c99e674ed1a27a8efc67f0a44,
     type: 3}
-  strongZomb: {fileID: 3853241225046255914, guid: 328838fb9a47a413da95889dfd6bcf9e,
+  strongZomb: {fileID: 4545605686256094300, guid: 357c82bb31509440986e5efa3fa874b0,
     type: 3}
-  fatZomb: {fileID: 7473255552285332698, guid: 1a957b2b3aac8da409f2c381589b5628, type: 3}
   stopSpawning: 0
   spawnTime: 0
   spawnDelay: 10

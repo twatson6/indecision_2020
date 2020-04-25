@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2080292740863102003
+--- !u!1 &1635621449986713925
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2080292740863102012}
+  - component: {fileID: 1635621449986713930}
   m_Layer: 0
   m_Name: powerUpPoint
   m_TagString: Untagged
@@ -16,21 +16,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2080292740863102012
+--- !u!4 &1635621449986713930
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080292740863102003}
+  m_GameObject: {fileID: 1635621449986713925}
   m_LocalRotation: {x: -0, y: -0, z: -0.0056401193, w: 0.99998415}
   m_LocalPosition: {x: -0.42, y: -0.11, z: 0}
   m_LocalScale: {x: 0.622, y: 0.622, z: 0.622}
   m_Children: []
-  m_Father: {fileID: 3853241225046255913}
+  m_Father: {fileID: 4545605686256094303}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.493004}
---- !u!1 &3853241225046255914
+--- !u!1 &4545605686256094300
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,13 +38,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3853241225046255913}
-  - component: {fileID: 3853241225046255926}
-  - component: {fileID: 3853241225046255927}
-  - component: {fileID: 3853241225046255925}
-  - component: {fileID: 2109969386706405486}
-  - component: {fileID: 2110123363007833096}
-  - component: {fileID: 4331513841895293550}
+  - component: {fileID: 4545605686256094303}
+  - component: {fileID: 4545605686256094272}
+  - component: {fileID: 4545605686256094275}
+  - component: {fileID: 1667554284093975832}
+  - component: {fileID: 3922893458327791384}
+  - component: {fileID: 3922893457679480905}
+  - component: {fileID: 3922893457679480908}
+  - component: {fileID: 3922893457679480911}
   m_Layer: 0
   m_Name: strongZombie
   m_TagString: strongZombie
@@ -52,28 +53,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3853241225046255913
+--- !u!4 &4545605686256094303
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
+  m_GameObject: {fileID: 4545605686256094300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.96, y: -7.17, z: 0}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
-  - {fileID: 2080292740863102012}
+  - {fileID: 1635621449986713930}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3853241225046255926
+--- !u!212 &4545605686256094272
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
+  m_GameObject: {fileID: 4545605686256094300}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -115,34 +116,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &3853241225046255927
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!60 &3853241225046255925
+--- !u!60 &4545605686256094275
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
+  m_GameObject: {fileID: 4545605686256094300}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -185,19 +165,19 @@ PolygonCollider2D:
       - {x: 0.405, y: -0.39999998}
       - {x: 0.555, y: -0.22999999}
       - {x: 0.60499996, y: -0.099999994}
---- !u!114 &2109969386706405486
+--- !u!114 &1667554284093975832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
+  m_GameObject: {fileID: 4545605686256094300}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3e3fceb5ed91425ca9bf66051b0df4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerupPoint: {fileID: 2080292740863102012}
+  powerupPoint: {fileID: 1635621449986713930}
   msPrefab: {fileID: 3293149407904305366, guid: 697106fa2c7a79c4ab61a371a2f5572b,
     type: 3}
   asPrefab: {fileID: 3697458672406326777, guid: 211b763d93b7b684eb42871b7a122923,
@@ -205,30 +185,15 @@ MonoBehaviour:
   hpPrefab: {fileID: 8575338693801664346, guid: e6dc1deb4e61b49498d4e4653acbc1ec,
     type: 3}
   zombieHealth: 5
-  Zombie: {fileID: 3853241225046255914}
---- !u!114 &2110123363007833096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a34074c18744cb4a0f49b558756814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  moveSpeed: 1
-  defaultSpeed: 2
---- !u!95 &4331513841895293550
+  Zombie: {fileID: 4545605686256094300}
+--- !u!95 &3922893458327791384
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3853241225046255914}
+  m_GameObject: {fileID: 4545605686256094300}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bed795b6957d4464da00853a65d8befd, type: 2}
@@ -240,3 +205,81 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3922893457679480905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4545605686256094300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  target: {fileID: 0}
+--- !u!114 &3922893457679480908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4545605686256094300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+  radius: 0.64
+  height: 0.01
+  repathRate: 0.5
+  canSearch: 1
+  canMove: 1
+  maxSpeed: 1.7
+  gravity: {x: 0, y: 0, z: 0}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  centerOffsetCompatibility: NaN
+  orientation: 1
+  enableRotation: 1
+  targetCompatibility: {fileID: 0}
+  maxAcceleration: -2.5
+  rotationSpeed: 360
+  slowdownDistance: 0.6
+  pickNextWaypointDist: 0.6
+  endReachedDistance: 0.2
+  alwaysDrawGizmos: 0
+  slowWhenNotFacingTarget: 1
+  whenCloseToDestination: 0
+  constrainInsideGraph: 0
+--- !u!114 &3922893457679480911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4545605686256094300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
