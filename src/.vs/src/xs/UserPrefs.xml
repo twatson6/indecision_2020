@@ -1,34 +1,9 @@
 ﻿<Properties StartupConfiguration="{4CFFDA30-0E63-039E-0DCA-DAC117CE2649}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs">
-    <Files>
-      <File FileName="Assets/ZombieDamage.cs" Line="19" Column="1" />
-      <File FileName="Assets/Damage.cs" />
-      <File FileName="Assets/ZombieMovement.cs" />
-      <File FileName="Assets/powerUpCollide.cs" />
-      <File FileName="Assets/PowerUp.cs" />
-      <File FileName="Assets/Shoot.cs" />
-      <File FileName="Assets/spawnZombie.cs" />
-      <File FileName="Assets/Bullet.cs" />
-      <File FileName="Assets/PlayerMove.cs" />
-      <File FileName="Assets/AudioManager.cs" />
-      <File FileName="Assets/Sound.cs" />
-      <File FileName="Assets/MainMenu.cs" />
-      <File FileName="Assets/scoreKeeper.cs" />
-      <File FileName="Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs" Line="42" Column="41" />
-      <File FileName="Assets/PauseMenu.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="src" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="AstarPathfindingProject" expanded="True">
-                <Node name="Behaviors" expanded="True">
-                  <Node name="AIDestinationSetter.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="src" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -45,9 +20,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="571f0ca4-56da-4bcb-80fc-c53c4c768689" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/david/indecision_2020/src/Assets/ZombieDamage.cs" relfile="Assets/ZombieDamage.cs" line="19" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

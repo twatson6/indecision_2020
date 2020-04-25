@@ -243,7 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   radius: 0.98
-  height: 2
+  height: 0.01
   repathRate: 0.5
   canSearch: 1
   canMove: 1
