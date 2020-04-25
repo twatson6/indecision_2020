@@ -7,17 +7,23 @@ using UnityEngine.SceneManagement;
 public class EndMenu : MonoBehaviour
 {
 	public GameObject endMenu;
-	
-	
 
-	public void menu ()
+
+
+	public void menu()
 	{
+		//resetting statics
+		PlayerMove.playerSpeed = 2f;
+		Damage.health = 10;
+		scoreKeeper.score = 0;
+		Shoot.fireRate = 1f;
+
 		endMenu.SetActive(false);
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("Menu");
 	}
-	
-	public void quit ()
+
+	public void quit()
 	{
 		Application.Quit();
 	}

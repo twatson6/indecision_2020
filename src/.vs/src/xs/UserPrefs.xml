@@ -3,7 +3,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="src" expanded="True" selected="True" />
+          <Node name="src" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="EndMenu.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
