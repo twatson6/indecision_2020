@@ -1,3 +1,5 @@
+04/26/2020: Fixed a problem where zombies were stopping at the end of a grid. Combined all three grids into one for pathfinding.
+
 04/24/2020: Added a grid map and a pathfinding system for zombies to follow player and go around obstacles.
 
 04/20/2020: Added two more zombie types.
