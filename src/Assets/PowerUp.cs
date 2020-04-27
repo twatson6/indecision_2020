@@ -15,7 +15,10 @@ public class PowerUp : MonoBehaviour
 		
 		if(collision.gameObject.tag=="mspowerup")
 		{
-			PlayerMove.playerSpeed = PlayerMove.playerSpeed + .3f;
+			if(PlayerMove.playerSpeed <= 3f)
+			{
+				PlayerMove.playerSpeed = PlayerMove.playerSpeed + .1f;
+			}
 		}
 		
 		if(collision.gameObject.tag == "hppowerup")
