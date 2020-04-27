@@ -1,4 +1,6 @@
-04/20/2020: Created a script that links the volume slider in options menu to sounds
+04/23/2020: Created the Credits screen referencing what everyone worked on. Fixed big zombie running sideways.
+
+04/20/2020: Created a script that links the volume slider in options menu to sounds. Fixed player running sideways.
 
 04/19/2020: Created spawner objects using spawnZombie.cs
 

@@ -37,6 +37,7 @@ public class ZombieDamage : MonoBehaviour
 	{
 		powerUpDrop();
 		scoreKeeper.score++;
+		spawnZombie.zombieCount--;
 		Destroy(gameObject);
 	}
 	
@@ -57,7 +58,7 @@ public class ZombieDamage : MonoBehaviour
 			}
 			else if(newRand2 == 5)
 			{
-				GameObject upgrade3 = Instantiate(asPrefab, powerupPoint.position, powerupPoint.rotation);
+				GameObject upgrade3 = Instantiate(hpPrefab, powerupPoint.position, powerupPoint.rotation);
 			}
 		}		
 	}

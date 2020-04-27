@@ -181,7 +181,8 @@ MonoBehaviour:
     type: 3}
   asPrefab: {fileID: 3697458672406326777, guid: 211b763d93b7b684eb42871b7a122923,
     type: 3}
-  hpPrefab: {fileID: 0}
+  hpPrefab: {fileID: 8575338693801664346, guid: e6dc1deb4e61b49498d4e4653acbc1ec,
+    type: 3}
   zombieHealth: 2
   Zombie: {fileID: 5929665241832438693}
 --- !u!114 &5929665241832438689

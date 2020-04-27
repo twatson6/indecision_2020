@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
 	static public float fireRate = 1f;
 	
 	public float canFire = 1f;
-	public float bulletForce = 15f;
+	public float bulletForce = 45f;
 
     // Update is called once per frame
     void Update()
