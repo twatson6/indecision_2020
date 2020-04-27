@@ -16,7 +16,7 @@ public class Damage : MonoBehaviour
 	public float normalZombieDamage = 2f;
 	public float strongZombieDamage = 3f;
 	public float weakZombieDamage = 1f;
-	private bool godMode = false;
+	static public bool godMode = false;
 
 	public GameObject endMenu;
 	public TextMeshProUGUI healthComponent;
@@ -46,18 +46,6 @@ public class Damage : MonoBehaviour
 		if(health <= 0)
 		{
 			die();
-		}
-		
-		if (Input.GetKeyDown(KeyCode.KeypadMinus))
-        {
-            if(godMode != true)
-			{
-				godMode = true;
-			}
-			else
-			{
-				godMode = false;
-			}
 		}
 		healthComponent.text = "HEALTH: " + health.ToString();
 	}
