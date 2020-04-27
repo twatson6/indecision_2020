@@ -1,5 +1,6 @@
 ﻿// made by Terry for shooting 3/20/2020 to handle Damage and End for player
 // updated by David to account for other zombie types' damage
+// updated by Terry to add godMode
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,19 +9,20 @@ using TMPro;
 
 public class Damage : MonoBehaviour
 {
-    static public float health = 1000000;
+    static public float health = 10;
 	
 	public float canDamage = 1f;
 	public float grace = .75f;
 	public float normalZombieDamage = 2f;
 	public float strongZombieDamage = 3f;
 	public float weakZombieDamage = 1f;
-
+	private bool godMode = false;
 
 	public GameObject endMenu;
 	public TextMeshProUGUI healthComponent;
 	void OnCollisionEnter2D(Collision2D collision){
-		
+		if(godMode != true)
+		{
 		if(collision.gameObject.tag=="normalZombie" && Time.time > canDamage)
 		{
 			health = health - normalZombieDamage;
@@ -36,6 +38,7 @@ public class Damage : MonoBehaviour
 			health = health - weakZombieDamage;
 			canDamage = Time.time + grace;
 		}
+		}
 	}
 	
 	void Update()
@@ -45,6 +48,17 @@ public class Damage : MonoBehaviour
 			die();
 		}
 		
+		if (Input.GetKeyDown(KeyCode.KeypadMinus))
+        {
+            if(godMode != true)
+			{
+				godMode = true;
+			}
+			else
+			{
+				godMode = false;
+			}
+		}
 		healthComponent.text = "HEALTH: " + health.ToString();
 	}
 	
