@@ -44,6 +44,11 @@ public class PauseMenu : MonoBehaviour
 	
 	public void menu ()
 	{
+		PlayerMove.playerSpeed = 2f;
+		Damage.health = 10;
+		scoreKeeper.score = 0;
+		Shoot.fireRate = 1f;
+		
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("Menu");
 	}
