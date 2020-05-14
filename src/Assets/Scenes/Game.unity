@@ -103498,6 +103498,11 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 6bb16b08e5c8241cbb8c2092fe2a7172, type: 3}
+    volume: 0.398
+    pitch: 1
+    source: {fileID: 0}
 --- !u!4 &891077514
 Transform:
   m_ObjectHideFlags: 0
@@ -115874,7 +115879,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: e2d19b928b93c3946b0b31ab98544794,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 2eb21ae8225894da0b63486db161bd5b, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
