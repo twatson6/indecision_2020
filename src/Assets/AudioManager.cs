@@ -1,4 +1,6 @@
-﻿using System;
+﻿// 05/14/2020 Added the theme song for the game - David
+
+using System;
 using UnityEngine.Audio;
 using UnityEngine;
 
@@ -17,12 +19,13 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
         }
+        sounds[5].source.loop = true; // Sets theme music to loop
     }
 
-    //void Start()
-    //{
-    //    Play("Theme");
-    //}
+    void Start()
+    {
+        Play("Theme");
+    }
 
     public void Play (string name)
     {

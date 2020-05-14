@@ -1,3 +1,9 @@
+05/14/2020: Added the theme song Tony and I produced to play and loop in the background.
+
+04/26/2020: Fixed a problem where zombies were stopping at the end of a grid. Combined all three grids into one for pathfinding.
+
+04/24/2020: Manually copied over Terry's changes for the score and credits menu.
+
 04/24/2020: Added a grid map and a pathfinding system for zombies to follow player and go around obstacles.
 
 04/20/2020: Added two more zombie types.
