@@ -27,6 +27,8 @@ CHEATS:
 Name		Key
 ========	========
 godMode		Numpad -
+
 fireRate	Numpad +
+
 speed		Numpad / (Careful this one stacks)
 
