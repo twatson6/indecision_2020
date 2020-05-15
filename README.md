@@ -19,7 +19,7 @@ Instructions:
 1. Movement is controlled by WASD and left mouse button is to shoot.
 2. Player should try to kill zombies and collect as many power-ups as possible.
 3. Power-ups are seperated into Red for health, Yellow for Movement Speed, & Blue for Shot Speed.
-4. At 2 minutes and 2 minutes and 30 seconds new spawners will engage and make the game MUCH harder. Be ready.
+4. At 2 minutes and 30 seconds new spawners will engage and make the game MUCH harder. Be ready.
 5. The ultimate goal of the game is to get as high of a score as possible, you're meant to eventually die.
 
 CHEATS:
