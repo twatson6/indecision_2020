@@ -1,3 +1,6 @@
+May 14, 2020   11:40PM
+Added more light to the flashlight source
+
 May 14, 2020   11:27PM
 Added a dark material to zombie assests and spawners so that they are mostly only visible with the Gun's flashlight.
 Added a new player animated asset and a fast zombie asset. 
