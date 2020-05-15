@@ -25,7 +25,9 @@ Instructions:
 CHEATS:
 
 Name		Key
+
 ========	========
+
 godMode		Numpad -
 
 fireRate	Numpad +
