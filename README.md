@@ -23,8 +23,14 @@ Instructions:
 5. The ultimate goal of the game is to get as high of a score as possible, you're meant to eventually die.
 
 CHEATS:
+
 Name		Key
+
 ========	========
+
 godMode		Numpad -
+
 fireRate	Numpad +
+
 speed		Numpad / (Careful this one stacks)
+
