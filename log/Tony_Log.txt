@@ -1,8 +1,15 @@
+May 14, 2020   11:27PM
+Added a dark material to zombie assests and spawners so that they are mostly only visible with the Gun's flashlight.
+Added a new player animated asset and a fast zombie asset. 
+
 April 25, 2020 12:00AM
 Merged David's branch david_ai to the master branch
 
-April 19, 2020  10:24PM
+April 19, 2020 10:24PM
 Added more map grounds and ambient music for the different regions. As well, added music to the Main Menu.
 
 April 17, 2020 12:23AM
 Had to redo the map from scratch. It is now about 90% complete, just need more collision objects and to push to master.
+
+April 5, 2020   10:20pm
+Created the map, however, unable to upload teh file to the repo. will have to search how to work with branches. 
